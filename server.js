@@ -9,5 +9,7 @@ app.get("/",(req,res) => {
 });
 // lisent
 app.listen(8081, () =>{
+    console.log("application is ready to start!"); 
     console.log("Node Server Running");
+
 });
